@@ -1,0 +1,59 @@
+html body {
+min-height: 100%;
+
+}
+
+header {
+
+background-color: black;
+color: white;
+text-align: center;
+padding: 75px;
+}
+
+header a, footer a {
+text-decoration: none;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+h1 {
+font-family: "Passion One", Arial, Helvetica, sans-serif;
+font-weight: 700;
+font-size: 102px;
+font-variant: small-caps;  /* ESTA PROPRIEDADE DEIXA TODAS AS LETRAS EM MAIÚSCULAS , PORÉM AS INICIAIS DE CADA PALAVRA, FICAM COM TAMANHO MAIOR.*/
+}
+
+.comum {
+background-color: white;
+padding: 68px;
+padding-bottom: 20px;
+line-height: 92px;
+}
+
+
+p {
+font-family: "Sriracha", Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 3em;
+
+}
+
+
+footer {
+background-color: black;
+color: white;
+font-weight: 400;   
+font-size: .3em;  
+text-align: center;
+height: 100px;
+padding: 20px;
+}
+
+
