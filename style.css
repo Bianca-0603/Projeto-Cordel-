@@ -1,14 +1,13 @@
-html body {
+html, body {
 min-height: 100%;
 
 }
 
 header {
-
 background-color: black;
 color: white;
 text-align: center;
-padding: 75px;
+padding: 65px;
 }
 
 header a, footer a {
@@ -33,7 +32,6 @@ font-variant: small-caps;  /* ESTA PROPRIEDADE DEIXA TODAS AS LETRAS EM MAIÚSCU
 .comum {
 background-color: white;
 padding: 68px;
-padding-bottom: 20px;
 line-height: 92px;
 }
 
@@ -42,8 +40,15 @@ p {
 font-family: "Sriracha", Arial, Helvetica, sans-serif;
 font-weight: 400;
 font-size: 3em;
+}
+
+.imagem {
+    background-color: rgb(73, 72, 72);
+    color: white;
+    padding: 68px;
 
 }
+
 
 
 footer {
