@@ -1,64 +1,76 @@
 html, body {
 min-height: 100%;
-
 }
 
-header {
+:root {
+--fonte-normal: Verdana, Geneva, Tahoma, sans-serif; 
+--fonte1: "Passion One", Arial, Helvetica, sans-serif;
+--fonte2:  "Sriracha", Arial, Helvetica, sans-serif;
+}
+
+header  { 
 background-color: black;
 color: white;
 text-align: center;
-padding: 65px;
-}
-
-header a, footer a {
-text-decoration: none;
-color: white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: bolder;
-}
-
-header a:hover, footer a:hover{
-cursor: pointer;
-text-decoration: underline;
+padding: 32px;
 }
 
 h1 {
-font-family: "Passion One", Arial, Helvetica, sans-serif;
+font-family: var(--fonte1);
 font-weight: 700;
-font-size: 102px;
+font-size: 10vw; /*10% da largura do Viewport */
 font-variant: small-caps;  /* ESTA PROPRIEDADE DEIXA TODAS AS LETRAS EM MAIÚSCULAS , PORÉM AS INICIAIS DE CADA PALAVRA, FICAM COM TAMANHO MAIOR.*/
 }
 
+h3{
+    font-family: var(--fonte-normal);
+    font-size: .5em;
+    font-weight: 400;
+      }
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: var(--fonte-normal);
+}
+
+header a:hover, footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .comum {
-background-color: white;
-padding: 68px;
-line-height: 92px;
+    background-color: white;
+    padding: 20px;
+  
 }
 
 
 p {
-font-family: "Sriracha", Arial, Helvetica, sans-serif;
-font-weight: 400;
-font-size: 3em;
+    font-family: var(--fonte2);
+    font-weight: 400;
+    font-size: 3vw;
+      line-height: 40px;
 }
 
 .imagem {
     background-color: rgb(73, 72, 72);
     color: white;
-    padding: 68px;
+    padding: 20px;
 
 }
 
 
-
-footer {
+footer > p {
 background-color: black;
 color: white;
 font-weight: 400;   
-font-size: .3em;  
+font-size: .8em;  
 text-align: center;
-height: 100px;
-padding: 20px;
+padding: 10px 20px; /* menos espaço vertical */
+line-height: 1.4; /* reduz o espaçamento entre linhas */
+font-family:  var(--fonte-normal);
 }
 
 
