@@ -26,13 +26,14 @@ h3{
     font-family: var(--fonte-normal);
     font-size: .5em;
     font-weight: 400;
-      }
+}
 
 header a, footer a {
     text-decoration: none;
     color: white;
-    font-weight: bolder;
+    font-weight: 700;
     font-family: var(--fonte-normal);
+    font-size: 1em;
 }
 
 header a:hover, footer a:hover{
@@ -40,25 +41,42 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
-.comum {
-    background-color: white;
-    padding: 20px;
-  
-}
-
-
-p {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+    font-size: 3vw;
     font-family: var(--fonte2);
     font-weight: 400;
-    font-size: 3vw;
-      line-height: 40px;
 }
 
-.imagem {
-    background-color: rgb(73, 72, 72);
-    color: white;
-    padding: 20px;
+.comum > p{
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+ }
 
+ .imagem > p{
+background-color:  rgba(5, 5, 5, 0.253);
+display: inline-block;/* Transforma numa caixa que se adapta ao tamanho do conteúdo, desta forma não necessita colocar uma largura fixa*/
+color: white;
+padding: 5px;
+
+}
+
+section.imagem {
+    box-shadow: inset 6px 6px 13px 9px rgba(0, 0, 0, 0.473);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem1 {
+background-image: url(./src/imagens/background001.jpg);
+}
+
+.imagem2 {
+   background-image: url(./src/imagens/background002.jpg);
 }
 
 
@@ -66,7 +84,7 @@ footer > p {
 background-color: black;
 color: white;
 font-weight: 400;   
-font-size: .8em;  
+font-size: .5em;  
 text-align: center;
 padding: 10px 20px; /* menos espaço vertical */
 line-height: 1.4; /* reduz o espaçamento entre linhas */
