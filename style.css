@@ -1,94 +1,93 @@
-html, body {
-min-height: 100%;
+html,
+body {
+  min-height: 100%;
 }
 
 :root {
---fonte-normal: Verdana, Geneva, Tahoma, sans-serif; 
---fonte1: "Passion One", Arial, Helvetica, sans-serif;
---fonte2:  "Sriracha", Arial, Helvetica, sans-serif;
+  --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte1: "Passion One", Arial, Helvetica, sans-serif;
+  --fonte2: "Sriracha", Arial, Helvetica, sans-serif;
 }
 
-header  { 
-background-color: black;
-color: white;
-text-align: center;
-padding: 32px;
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 32px;
 }
 
 h1 {
-font-family: var(--fonte1);
-font-weight: 700;
-font-size: 10vw; /*10% da largura do Viewport */
-font-variant: small-caps;  /* ESTA PROPRIEDADE DEIXA TODAS AS LETRAS EM MAIÚSCULAS , PORÉM AS INICIAIS DE CADA PALAVRA, FICAM COM TAMANHO MAIOR.*/
+  font-family: var(--fonte1);
+  font-weight: 700;
+  font-size: 10vw; /*10% da largura do Viewport */
+  font-variant: small-caps; /* ESTA PROPRIEDADE DEIXA TODAS AS LETRAS EM MAIÚSCULAS , PORÉM AS INICIAIS DE CADA PALAVRA, FICAM COM TAMANHO MAIOR.*/
 }
 
-h3{
-    font-family: var(--fonte-normal);
-    font-size: .8em;
-    font-weight: 400;
+h3 {
+  font-family: var(--fonte-normal);
+  font-size: 0.8em;
+  font-weight: 400;
 }
 
-header a, footer a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-family: var(--fonte-normal);
-    font-size: 1em;
+header a,
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: var(--fonte-normal);
+  font-size: 1em;
 }
 
-header a:hover, footer a:hover{
-    cursor: pointer;
-    text-decoration: underline;
+header a:hover,
+footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 1.5em;
-    padding-left: 30px;
-    font-size: 3vw;
-    font-family: var(--fonte2);
-    font-weight: 400;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 1.5em;
+  padding-left: 30px;
+  font-size: 3vw;
+  font-family: var(--fonte2);
+  font-weight: 400;
 }
 
-.comum > p{
-    background-color: rgb(255, 255, 255);
-    padding: 12px;
- }
+.comum > p {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+}
 
- .imagem > p{
-background-color:  rgba(5, 5, 5, 0.253);
-display: inline-block;/* Transforma numa caixa que se adapta ao tamanho do conteúdo, desta forma não necessita colocar uma largura fixa*/
-color: white;
-padding: 5px;
-
+.imagem > p {
+  background-color: rgba(5, 5, 5, 0.253);
+  display: inline-block; /* Transforma numa caixa que se adapta ao tamanho do conteúdo, desta forma não necessita colocar uma largura fixa*/
+  color: white;
+  padding: 5px;
 }
 
 section.imagem {
-    box-shadow: inset 6px 6px 13px 9px rgba(0, 0, 0, 0.473);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 9px rgba(0, 0, 0, 0.473);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .imagem1 {
-background-image: url(./src/imagens/background001.jpg);
+  background-image: url(./src/imagens/background001.jpg);
 }
 
 .imagem2 {
-   background-image: url(./src/imagens/background002.jpg);
+  background-image: url(./src/imagens/background002.jpg);
 }
-
 
 footer > p {
-background-color: black;
-color: white;
-font-weight: 400;   
-font-size: .5em;  
-text-align: center;
-padding: 10px 20px; /* menos espaço vertical */
-line-height: 1.4; /* reduz o espaçamento entre linhas */
-font-family:  var(--fonte-normal);
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 0.5em;
+  text-align: center;
+  padding: 10px 20px; /* menos espaço vertical */
+  line-height: 1.4; /* reduz o espaçamento entre linhas */
+  font-family: var(--fonte-normal);
 }
-
-
