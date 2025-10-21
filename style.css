@@ -24,7 +24,7 @@ font-variant: small-caps;  /* ESTA PROPRIEDADE DEIXA TODAS AS LETRAS EM MAIÚSCU
 
 h3{
     font-family: var(--fonte-normal);
-    font-size: .5em;
+    font-size: .8em;
     font-weight: 400;
 }
 
